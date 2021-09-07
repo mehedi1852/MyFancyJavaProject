@@ -24,6 +24,7 @@ class Main
         double timeInYear=sc.nextDouble();
 
         FIVCalculation finalValuation = new FIVCalculation(presentValue, interestRate, timeInYear);
+        System.out.print("The future value is:= "+finalValuation.fiv+"\n");
 
     }
 }
